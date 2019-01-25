@@ -1,5 +1,6 @@
 require 'rails_helper'
- 'categories', type: 'feature' do
+
+describe 'categories', type: 'feature' do
 
   before do
     @post = Post.create(title: "Feeling Groovy", content: "I'm feeling so groovy")
